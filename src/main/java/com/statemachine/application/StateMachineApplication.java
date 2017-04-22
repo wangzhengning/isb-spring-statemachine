@@ -1,0 +1,62 @@
+package com.statemachine.application;
+
+import com.statemachine.constant.EnumPaymentEvent;
+import com.statemachine.constant.EnumPaymentOrderStatus;
+import com.statemachine.service.StateMachineConfig;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.statemachine.StateMachine;
+import org.springframework.statemachine.StateMachineSystemConstants;
+
+/**
+ * Created by zn.wang on 17/4/21.
+ */
+@SpringBootApplication
+public class StateMachineApplication implements CommandLineRunner{
+
+    protected Logger logger = LoggerFactory.getLogger(StateMachineApplication.class);
+
+    protected AnnotationConfigApplicationContext context;
+
+    protected StateMachine<EnumPaymentOrderStatus ,EnumPaymentEvent> stateMachine;
+
+    protected void buildContext() {
+        context = new AnnotationConfigApplicationContext();
+
+
+    }
+
+    protected StateMachine buildStateMachine(){
+        if(null == context){
+            logger.info("[ERRORS] [AnnotationConfigApplicationContext is null]");
+            return null;
+        }
+        context.refresh();
+        StateMachine<EnumPaymentOrderStatus , EnumPaymentEvent> stateMachine =
+                (StateMachine<EnumPaymentOrderStatus , EnumPaymentEvent>)context.getBean(StateMachineSystemConstants.DEFAULT_ID_STATEMACHINE);
+        if(null == stateMachine){
+            logger.info("[ERRORS] [StateMachine is null]");
+            return null;
+        }
+        return stateMachine;
+    }
+
+    @Override
+    public void run(String... strings) throws Exception {
+        buildContext();
+        buildStateMachine();
+        context.register(StateMachineConfig.class);
+        stateMachine.start();
+        stateMachine.sendEvent(EnumPaymentEvent.PAY);
+        stateMachine.sendEvent(EnumPaymentEvent.RECEIVE);
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(StateMachineApplication.class , args);
+    }
+
+}
