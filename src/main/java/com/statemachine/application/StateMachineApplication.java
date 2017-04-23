@@ -26,30 +26,23 @@ public class StateMachineApplication implements CommandLineRunner{
 
     protected void buildContext() {
         context = new AnnotationConfigApplicationContext();
-
-
-    }
-
-    protected StateMachine buildStateMachine(){
         if(null == context){
             logger.info("[ERRORS] [AnnotationConfigApplicationContext is null]");
-            return null;
         }
+
+        context.register(StateMachineConfig.class);
         context.refresh();
-        StateMachine<EnumPaymentOrderStatus , EnumPaymentEvent> stateMachine =
-                (StateMachine<EnumPaymentOrderStatus , EnumPaymentEvent>)context.getBean(StateMachineSystemConstants.DEFAULT_ID_STATEMACHINE);
+
+        stateMachine = (StateMachine<EnumPaymentOrderStatus , EnumPaymentEvent>)
+                context.getBean(StateMachineSystemConstants.DEFAULT_ID_STATEMACHINE);
         if(null == stateMachine){
             logger.info("[ERRORS] [StateMachine is null]");
-            return null;
         }
-        return stateMachine;
     }
 
     @Override
     public void run(String... strings) throws Exception {
         buildContext();
-        buildStateMachine();
-        context.register(StateMachineConfig.class);
         stateMachine.start();
         stateMachine.sendEvent(EnumPaymentEvent.PAY);
         stateMachine.sendEvent(EnumPaymentEvent.RECEIVE);
