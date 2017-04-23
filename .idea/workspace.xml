@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928067c8-5a87-4fba-bc25-7bc6a76b817a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/Application4TurnStile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/StateMachineCommands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF.spring/spring-shell-plugin.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF.spring/spring-shell-plugin.xml" />
     </list>
     <ignored path="isb-spring-statemachine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -619,7 +614,7 @@
       <option name="presentableId" value="Default" />
       <updated>1492742242831</updated>
       <workItem from="1492742244748" duration="17000" />
-      <workItem from="1492942806173" duration="5696000" />
+      <workItem from="1492942806173" duration="5710000" />
     </task>
     <task id="LOCAL-00001" summary="create the statemachine demo - (trunstile)">
       <created>1492950710371</created>
@@ -628,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492950710371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create the statemachine demo - (trunstile)">
+      <created>1492990499149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492990499149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5713000" />
+    <option name="totallyTimeSpent" value="5727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="43" width="1440" height="797" extended-state="0" />
