@@ -2,7 +2,6 @@ package com.statemachine.examples.common;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.shell.core.CommandMarker;
 import org.springframework.shell.core.annotation.CliCommand;
 import org.springframework.statemachine.StateMachine;
@@ -26,10 +25,6 @@ public class AbstractStateMachineCommands<S ,E> implements CommandMarker {
     protected StateMachine<S, E> getStateMachine(){
         return stateMachine;
     }
-
-    @Autowired
-    @Qualifier("stateChartModel")
-    private String stateChartModel;
 
     @CliCommand(value = "sm state" , help = "Prints current state")
     public String state(){

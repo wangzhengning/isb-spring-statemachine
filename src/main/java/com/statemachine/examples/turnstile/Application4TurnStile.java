@@ -1,7 +1,7 @@
 package com.statemachine.examples.turnstile;
 
+import com.statemachine.util.IsbBootstrap;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.shell.Bootstrap;
 import org.springframework.statemachine.config.EnableStateMachine;
 import org.springframework.statemachine.config.EnumStateMachineConfigurerAdapter;
 import org.springframework.statemachine.config.builders.StateMachineStateConfigurer;
@@ -52,12 +52,14 @@ public class Application4TurnStile {
 
     public static void main(String[] args) {
         try {
-            Bootstrap.main(args);
+            String []contextPath = { "classpath*:/META-INF/spring/spring-shell-plugin.xml" };
+            IsbBootstrap.main(args , contextPath);
         } catch (IOException e) {
             System.out.println("[ERRORS-START-TURNSTILE]");
             e.printStackTrace();
         }
     }
+
 }
 
 
