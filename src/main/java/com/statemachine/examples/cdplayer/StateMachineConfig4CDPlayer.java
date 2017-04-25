@@ -1,6 +1,7 @@
 package com.statemachine.examples.cdplayer;
 
 import com.statemachine.examples.cdplayer.Action.*;
+import com.statemachine.examples.cdplayer.entity.Library;
 import com.statemachine.examples.cdplayer.enumpk.EnumEvents4CDPlayer;
 import com.statemachine.examples.cdplayer.enumpk.EnumStates4CDPlayer;
 import com.statemachine.examples.cdplayer.guard.PlayGuard;
@@ -81,72 +82,81 @@ public class StateMachineConfig4CDPlayer extends StateMachineConfigurerAdapter<E
         return new PlayGuard();
     }
 
+    @Bean
+    public CDPlayer cdPlayer() {
+        return new CDPlayer();
+    }
+
+    @Bean
+    public Library library() {
+        return Library.buildSampleLibrary();
+    }
 
     private void buildStateMachineStateConfigurer(
             StateMachineStateConfigurer<EnumStates4CDPlayer, EnumEvents4CDPlayer> states) throws Exception {
-        states.withStates()
+        states
+                .withStates()
                 .initial(EnumStates4CDPlayer.IDLE)
                 .state(EnumStates4CDPlayer.IDLE)
                 .and()
                 .withStates()
-                    .parent(EnumStates4CDPlayer.IDLE)
-                    .initial(EnumStates4CDPlayer.CLOSED)
-                    .state(EnumStates4CDPlayer.CLOSED, closedEntryAction() , null)
-                    .state(EnumStates4CDPlayer.OPEN)
-                    .and()
+                .parent(EnumStates4CDPlayer.IDLE)
+                .initial(EnumStates4CDPlayer.CLOSED)
+                .state(EnumStates4CDPlayer.CLOSED, closedEntryAction(), null)
+                .state(EnumStates4CDPlayer.OPEN)
+                .and()
                 .withStates()
-                    .state(EnumStates4CDPlayer.BUSY)
-                    .and()
-                    .withStates()
-                        .parent(EnumStates4CDPlayer.BUSY)
-                        .initial(EnumStates4CDPlayer.PLAYING)
-                        .state(EnumStates4CDPlayer.PLAYING)
-                        .state(EnumStates4CDPlayer.PAUSED);
+                .state(EnumStates4CDPlayer.BUSY)
+                .and()
+                .withStates()
+                .parent(EnumStates4CDPlayer.BUSY)
+                .initial(EnumStates4CDPlayer.PLAYING)
+                .state(EnumStates4CDPlayer.PLAYING)
+                .state(EnumStates4CDPlayer.PAUSED);
 
     }
 
     private void buildStateMachineTransitionConfigurer(
             StateMachineTransitionConfigurer<EnumStates4CDPlayer, EnumEvents4CDPlayer> transitions) throws Exception {
-        transitions.withExternal()
-                        .source(EnumStates4CDPlayer.CLOSED).target(EnumStates4CDPlayer.OPEN).event(EnumEvents4CDPlayer.EJECT)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.OPEN).target(EnumStates4CDPlayer.CLOSED).event(EnumEvents4CDPlayer.EJECT)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.OPEN).target(EnumStates4CDPlayer.CLOSED).event(EnumEvents4CDPlayer.PLAY)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.PLAYING).target(EnumStates4CDPlayer.PAUSED).event(EnumEvents4CDPlayer.PAUSE)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.PLAYING)
-                        .action(trackAction())
-                        .timer(1000)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.PLAYING).event(EnumEvents4CDPlayer.BACK)
-                        .action(trackAction())
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.PLAYING).event(EnumEvents4CDPlayer.FORWARD)
-                        .action(trackAction())
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.PAUSED).target(EnumStates4CDPlayer.PLAYING).event(EnumEvents4CDPlayer.PAUSE)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.BUSY).target(EnumStates4CDPlayer.IDLE).event(EnumEvents4CDPlayer.STOP)
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.IDLE).target(EnumStates4CDPlayer.BUSY).event(EnumEvents4CDPlayer.PLAY)
-                        .action(playAction())
-                        .guard(playGuard())
-                        .and()
-                   .withExternal()
-                        .source(EnumStates4CDPlayer.OPEN)
-                        .event(EnumEvents4CDPlayer.LOAD)
-                        .action(loadAction());
+        transitions
+                .withExternal()
+                .source(EnumStates4CDPlayer.CLOSED).target(EnumStates4CDPlayer.OPEN).event(EnumEvents4CDPlayer.EJECT)
+                .and()
+                .withExternal()
+                .source(EnumStates4CDPlayer.OPEN).target(EnumStates4CDPlayer.CLOSED).event(EnumEvents4CDPlayer.EJECT)
+                .and()
+                .withExternal()
+                .source(EnumStates4CDPlayer.OPEN).target(EnumStates4CDPlayer.CLOSED).event(EnumEvents4CDPlayer.PLAY)
+                .and()
+                .withExternal()
+                .source(EnumStates4CDPlayer.PLAYING).target(EnumStates4CDPlayer.PAUSED).event(EnumEvents4CDPlayer.PAUSE)
+                .and()
+                .withInternal()
+                .source(EnumStates4CDPlayer.PLAYING)
+                .action(playingAction())
+                .timer(1000)
+                .and()
+                .withInternal()
+                .source(EnumStates4CDPlayer.PLAYING).event(EnumEvents4CDPlayer.BACK)
+                .action(trackAction())
+                .and()
+                .withInternal()
+                .source(EnumStates4CDPlayer.PLAYING).event(EnumEvents4CDPlayer.FORWARD)
+                .action(trackAction())
+                .and()
+                .withExternal()
+                .source(EnumStates4CDPlayer.PAUSED).target(EnumStates4CDPlayer.PLAYING).event(EnumEvents4CDPlayer.PAUSE)
+                .and()
+                .withExternal()
+                .source(EnumStates4CDPlayer.BUSY).target(EnumStates4CDPlayer.IDLE).event(EnumEvents4CDPlayer.STOP)
+                .and()
+                .withExternal()
+                .source(EnumStates4CDPlayer.IDLE).target(EnumStates4CDPlayer.BUSY).event(EnumEvents4CDPlayer.PLAY)
+                .action(playAction())
+                .guard(playGuard())
+                .and()
+                .withInternal()
+                .source(EnumStates4CDPlayer.OPEN).event(EnumEvents4CDPlayer.LOAD).action(loadAction());
 
     }
 

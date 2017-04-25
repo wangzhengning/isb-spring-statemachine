@@ -1,7 +1,6 @@
 package com.statemachine.examples.cdplayer.Action;
 
 import com.statemachine.examples.cdplayer.entity.Cd;
-import com.statemachine.examples.cdplayer.entity.Track;
 import com.statemachine.examples.cdplayer.enumpk.EnumEvents4CDPlayer;
 import com.statemachine.examples.cdplayer.enumpk.EnumHeaders;
 import com.statemachine.examples.cdplayer.enumpk.EnumStates4CDPlayer;
@@ -22,19 +21,19 @@ public class PlayingAction implements Action<EnumStates4CDPlayer,EnumEvents4CDPl
     private static final Logger logger = LoggerFactory.getLogger(PlayingAction.class);
 
     @Override
-    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> stateContext) {
-        Map<Object ,Object> variables = stateContext.getExtendedState().getVariables();
-        Object elapsedTime = variables.get(EnumVariables.ELAPSED_TIME);//运行时间
+    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> context) {
+        Map<Object, Object> variables = context.getExtendedState().getVariables();
+        Object elapsed = variables.get(EnumVariables.ELAPSED_TIME);
         Object cd = variables.get(EnumVariables.CD);
         Object track = variables.get(EnumVariables.TRACK);
-        if(elapsedTime instanceof Long){
-            long e = (Long) elapsedTime + 1000l;
-            Track t = ((Cd) cd).getTracks()[(Integer) track];
-            if(e > t.getLength() * 1000){
-                stateContext.getStateMachine().sendEvent(MessageBuilder.withPayload(EnumEvents4CDPlayer.FORWARD)
-                .setHeader(EnumHeaders.TRACK_SHIFT.toString() ,1).build());
-            }else {
-                variables.put(EnumVariables.ELAPSED_TIME , e);
+        if (elapsed instanceof Long) {
+            long e = ((Long)elapsed) + 1000l;
+            if (e > ((Cd) cd).getTracks()[((Integer) track)].getLength()*1000) {
+                context.getStateMachine().sendEvent(MessageBuilder
+                        .withPayload(EnumEvents4CDPlayer.FORWARD)
+                        .setHeader(EnumHeaders.TRACK_SHIFT.toString(), 1).build());
+            } else {
+                variables.put(EnumVariables.ELAPSED_TIME, e);
             }
         }
     }

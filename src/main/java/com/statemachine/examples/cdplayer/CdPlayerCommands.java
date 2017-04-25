@@ -21,15 +21,8 @@ public class CdPlayerCommands implements CommandMarker{
     @Autowired
     private CDPlayer cdPlayer;
 
+    @Autowired
     private Library library;
-
-    public Library getLibrary() {
-        return library;
-    }
-
-    public void setLibrary(Library library) {
-        this.library = library;
-    }
 
     @CliCommand(value = "cd lcd" , help = "Print CD player lcd info")
     public String lcd (){
@@ -45,8 +38,8 @@ public class CdPlayerCommands implements CommandMarker{
             buffer.append( i1++ + ": " + cd.getName()+"\n");
             int i2 = 0;
             for(Track track : cd.getTracks()){
-                buffer.append(" " + i2 +":" + track.getName() + " "
-                    + dateFormat.format(new Date(track.getLength())));
+                buffer.append(" " + i2++ +":" + track.getName() + " "
+                    + dateFormat.format(new Date(track.getLength()*1000)) + "\n");
             }
         }
 
@@ -59,9 +52,9 @@ public class CdPlayerCommands implements CommandMarker{
         try{
             Cd cd = library.getCollection().get(index);
             cdPlayer.load(cd);
-            buffer.append("Loading cd " + cd);
+            buffer.append("Loading cd " + cd.getName());
         }catch (Exception e){
-            buffer.append("Cd with index " + index+ " not found , check library");
+            buffer.append("Cd with index " + index + " not found , check library");
         }
         return buffer.toString();
     }

@@ -16,8 +16,8 @@ public class PlayGuard implements Guard<EnumStates4CDPlayer, EnumEvents4CDPlayer
 
     private static final Logger logger = LoggerFactory.getLogger(PlayGuard.class);
     @Override
-    public boolean evaluate(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> stateContext) {
-        ExtendedState extendedState = stateContext.getExtendedState();
+    public boolean evaluate(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> context) {
+        ExtendedState extendedState = context.getExtendedState();
         return extendedState.getVariables().get(EnumVariables.CD) != null;
     }
 }

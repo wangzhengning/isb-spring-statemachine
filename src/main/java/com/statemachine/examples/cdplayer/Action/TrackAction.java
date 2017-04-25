@@ -20,22 +20,18 @@ public class TrackAction implements Action<EnumStates4CDPlayer, EnumEvents4CDPla
     private static final Logger logger = LoggerFactory.getLogger(TrackAction.class);
 
     @Override
-    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> stateContext) {
-        Map<Object ,Object> variables = stateContext.getExtendedState().getVariables();
-        Object trackShift = stateContext.getMessageHeader(EnumHeaders.TRACK_SHIFT);
+    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> context) {
+        Map<Object, Object> variables = context.getExtendedState().getVariables();
+        Object trackshift = context.getMessageHeader(EnumHeaders.TRACK_SHIFT.toString());
         Object track = variables.get(EnumVariables.TRACK);
         Object cd = variables.get(EnumVariables.CD);
-        if(trackShift instanceof Integer
-                && track instanceof Integer
-                && cd instanceof Cd){
-
-            int next = (Integer) track + (Integer) trackShift;
-            if(next > 0 && ((Cd)cd).getTracks().length > next){
-                variables.put(EnumVariables.ELAPSED_TIME , 0l);
-                variables.put(EnumVariables.TRACK , next);
-            }
-            else if(((Cd)cd).getTracks().length <= next){
-                stateContext.getStateMachine().sendEvent(EnumEvents4CDPlayer.STOP);
+        if (trackshift instanceof Integer && track instanceof Integer && cd instanceof Cd) {
+            int next = ((Integer)track) + ((Integer)trackshift);
+            if (next >= 0 &&  ((Cd)cd).getTracks().length > next) {
+                variables.put(EnumVariables.ELAPSED_TIME, 0l);
+                variables.put(EnumVariables.TRACK, next);
+            } else if (((Cd)cd).getTracks().length <= next) {
+                context.getStateMachine().sendEvent(EnumEvents4CDPlayer.STOP);
             }
         }
     }

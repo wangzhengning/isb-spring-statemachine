@@ -16,10 +16,8 @@ public class PlayAction implements Action<EnumStates4CDPlayer,EnumEvents4CDPlaye
     private static final Logger logger = LoggerFactory.getLogger(PlayAction.class);
 
     @Override
-    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> stateContext) {
-        if(stateContext != null){
-            stateContext.getExtendedState().getVariables().put(EnumVariables.ELAPSED_TIME ,0L);
-            stateContext.getExtendedState().getVariables().put(EnumVariables.TRACK , 0L);
-        }
+    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> context) {
+        context.getExtendedState().getVariables().put(EnumVariables.ELAPSED_TIME, 0l);
+        context.getExtendedState().getVariables().put(EnumVariables.TRACK, 0);
     }
 }

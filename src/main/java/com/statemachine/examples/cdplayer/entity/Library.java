@@ -30,6 +30,6 @@ public class Library implements Serializable{
         Track cd2Track2 = new Track("CD2 Track wzn_2" , 4*60 + 8);
         Cd cd2 = new Cd("Greatest Hits II" , new Track[]{cd2Track , cd2Track2});
 
-        return new Library(new Cd[]{ cd1 , cd1 });
+        return new Library(new Cd[]{ cd1 , cd2 });
     }
 }

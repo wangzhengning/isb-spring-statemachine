@@ -14,11 +14,10 @@ import org.springframework.statemachine.action.Action;
 public class LoadAction implements Action<EnumStates4CDPlayer,EnumEvents4CDPlayer>{
 
     private static final Logger logger = LoggerFactory.getLogger(LoadAction.class);
+
     @Override
-    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> stateContext) {
-        if(stateContext != null){
-            Object cd = stateContext.getMessageHeader(EnumVariables.CD);
-            stateContext.getExtendedState().getVariables().put(EnumVariables.CD ,cd);
-        }
+    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> context) {
+        Object cd = context.getMessageHeader(EnumVariables.CD);
+        context.getExtendedState().getVariables().put(EnumVariables.CD, cd);
     }
 }

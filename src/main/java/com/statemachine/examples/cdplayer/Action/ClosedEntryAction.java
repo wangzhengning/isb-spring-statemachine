@@ -16,13 +16,12 @@ public class ClosedEntryAction implements Action<EnumStates4CDPlayer,EnumEvents4
     private static final Logger logger = LoggerFactory.getLogger(ClosedEntryAction.class);
 
     @Override
-    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> stateContext) {
-        if(stateContext != null
-                && stateContext.getTransition() != null
-                && stateContext.getEvent() == EnumEvents4CDPlayer.PLAY
-                && stateContext.getTransition().getTarget().getId() == EnumStates4CDPlayer.CLOSED
-                && stateContext.getExtendedState().getVariables().get(EnumVariables.CD) != null){
-            stateContext.getStateMachine().sendEvent(EnumEvents4CDPlayer.PLAY);
+    public void execute(StateContext<EnumStates4CDPlayer, EnumEvents4CDPlayer> context) {
+        if (context.getTransition() != null
+                && context.getEvent() == EnumEvents4CDPlayer.PLAY
+                && context.getTransition().getTarget().getId() == EnumStates4CDPlayer.CLOSED
+                && context.getExtendedState().getVariables().get(EnumVariables.CD) != null) {
+            context.getStateMachine().sendEvent(EnumEvents4CDPlayer.PLAY);
         }
     }
 }

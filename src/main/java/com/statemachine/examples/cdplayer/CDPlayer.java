@@ -27,8 +27,7 @@ public class CDPlayer {
     private String trackStatus = "";
 
     public void load(Cd cd) {
-        stateMachine.sendEvent(MessageBuilder.withPayload(EnumEvents4CDPlayer.LOAD)
-                .setHeader(EnumVariables.CD.toString(), cd).build());
+        stateMachine.sendEvent(MessageBuilder.withPayload(EnumEvents4CDPlayer.LOAD).setHeader(EnumVariables.CD.toString(), cd).build());
     }
 
     public void play() {
@@ -48,62 +47,64 @@ public class CDPlayer {
     }
 
     public void forward() {
-        stateMachine.sendEvent(MessageBuilder.withPayload(EnumEvents4CDPlayer.FORWARD)
-                .setHeader(EnumHeaders.TRACK_SHIFT.toString(), 1).build());
+        stateMachine
+                .sendEvent(MessageBuilder
+                        .withPayload(EnumEvents4CDPlayer.FORWARD)
+                        .setHeader(EnumHeaders.TRACK_SHIFT.toString(), 1).build());
     }
 
     public void back() {
-        stateMachine.sendEvent(MessageBuilder.withPayload(EnumEvents4CDPlayer.BACK)
-                .setHeader(EnumHeaders.TRACK_SHIFT.toString(), -1).build());
+        stateMachine
+                .sendEvent(MessageBuilder
+                        .withPayload(EnumEvents4CDPlayer.BACK)
+                        .setHeader(EnumHeaders.TRACK_SHIFT.toString(), -1).build());
     }
 
-    //ldc(local display controller):局部显示控制器
     public String getLdcStatus() {
         return cdStatus + " " + trackStatus;
     }
 
 
-    //@StatesOnTransition(target = EnumStates4CDPlayer.BUSY)
-    public void busy(ExtendedState state) {
-        Object cd = state.getVariables().get(EnumVariables.CD);
+   //@OnTransition(target = "BUSY")
+    public void busy(ExtendedState extendedState) {
+        Object cd = extendedState.getVariables().get(EnumVariables.CD);
         if (cd != null) {
-            cdStatus = ((Cd) cd).getName();
+            cdStatus = ((Cd)cd).getName();
         }
     }
 
-    //@StatesOnTransition(target = EnumStates4CDPlayer.PLAYING)
-    public void playing(ExtendedState state) {
-        Object elapsed = state.getVariables().get(EnumVariables.ELAPSED_TIME);
-        Object cd = state.getVariables().get(EnumVariables.CD);
-        Object track = state.getVariables().get(EnumVariables.TRACK);
 
-        if (elapsed instanceof Long
-                && track instanceof Integer
-                && cd instanceof Cd) {
-            SimpleDateFormat dateFormat = new SimpleDateFormat("mm:ss");
-            trackStatus = ((Cd) cd).getTracks()[(Integer) track] + " "
-                    + dateFormat.format(new Date((Long) elapsed));
+    //@StatesOnTransition(target = EnumStates4CDPlayer.PLAYING)
+    public void playing(ExtendedState extendedState) {
+        Object elapsed = extendedState.getVariables().get(EnumVariables.ELAPSED_TIME);
+        Object cd = extendedState.getVariables().get(EnumVariables.CD);
+        Object track = extendedState.getVariables().get(EnumVariables.TRACK);
+        if (elapsed instanceof Long && track instanceof Integer && cd instanceof Cd) {
+            SimpleDateFormat format = new SimpleDateFormat("mm:ss");
+            trackStatus = ((Cd) cd).getTracks()[((Integer) track)]
+                    + " " + format.format(new Date((Long) elapsed));
         }
     }
 
     //@StatesOnTransition(target = EnumStates4CDPlayer.OPEN)
-    public void open(ExtendedState state) {
+    public void open(ExtendedState extendedState) {
         cdStatus = "Open";
     }
 
-    //@StatesOnTransition(target ={EnumStates4CDPlayer.CLOSED , EnumStates4CDPlayer.IDLE})
+
+    //@StatesOnTransition(target = {EnumStates4CDPlayer.CLOSED, EnumStates4CDPlayer.IDLE})
     public void closed(ExtendedState extendedState) {
         Object cd = extendedState.getVariables().get(EnumVariables.CD);
-        if(cd != null){
+        if (cd != null) {
             cdStatus = ((Cd)cd).getName();
-        }
-        else {
+        } else {
             cdStatus = "No CD";
         }
         trackStatus = "";
     }
 
 }
+
 
 
 
