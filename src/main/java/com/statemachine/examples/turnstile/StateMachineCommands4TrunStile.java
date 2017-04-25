@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
  * Created by zn.wang on 17/4/23.
  */
 @Component
-public class StateMachineCommands4TrunStile extends AbstractStateMachineCommands<Application4TurnStile.States, Application4TurnStile.Events> {
+public class StateMachineCommands4TrunStile extends AbstractStateMachineCommands<EnumStates4TurnStile, EnumEvents4TurnStile> {
 
     @CliCommand(value = "sm event" , help = "Sends an event to a state machine")
     public String event(@CliOption(key = {"" , "event"} , mandatory =true , help = "The event")
-                            final Application4TurnStile.Events event){
+                            final EnumEvents4TurnStile event){
         getStateMachine().sendEvent(event);
         return "Event " + event + " send";
     }

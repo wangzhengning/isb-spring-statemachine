@@ -1,65 +1,39 @@
 package com.statemachine.examples.turnstile;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.statemachine.config.EnableStateMachine;
-import org.springframework.statemachine.config.EnumStateMachineConfigurerAdapter;
-import org.springframework.statemachine.config.builders.StateMachineStateConfigurer;
-import org.springframework.statemachine.config.builders.StateMachineTransitionConfigurer;
-
-import java.util.EnumSet;
+import com.statemachine.util.IsbBootstrap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Created by zn.wang on 17/4/23.
  */
-@Configuration
-public class Application4TurnStile {
 
 
-    @Configuration
-    @EnableStateMachine
-    static class StateMachineConfig extends EnumStateMachineConfigurerAdapter<States , Events>{
+@SpringBootApplication
+public class Application4TurnStile implements CommandLineRunner{
 
-        @Override
-        public void configure(StateMachineStateConfigurer<States, Events> states) throws Exception {
-            states.withStates()
-                    .initial(States.LOCKED)
-                    .states(EnumSet.allOf(States.class));
-        }
+    private static final Logger logger = LoggerFactory.getLogger(Application4TurnStile.class);
 
-        @Override
-        public void configure(StateMachineTransitionConfigurer<States, Events> transitions) throws Exception {
-            transitions.withExternal()
-                    .source(States.LOCKED)
-                    .target(States.UNLOCKED)
-                    .event(Events.COIN)
-                    .and()
-                    .withExternal()
-                    .source(States.UNLOCKED)
-                    .target(States.LOCKED)
-                    .event(Events.PUSH);
+    private static final String []contextPath = {
+                    "classpath*:/META-INF/spring/spring-shell-plugin.xml" ,
+                    "classpath*:/META-INF/spring/spring-shell-plugin-turnstile.xml"
+            };
+
+    @Override
+    public void run(String... args) throws Exception {
+        try{
+            IsbBootstrap.main(args , contextPath);
+        }catch (Exception e){
+            System.out.println("[ERRORS-START-TURNSTILE]");
         }
     }
 
-    public enum States {
-        LOCKED, UNLOCKED;
+    public static void main(String[] args) {
+        SpringApplication.run(Application4TurnStile.class , args);
     }
-
-    public enum Events {
-        COIN, PUSH;
-    }
-
-//    public static void main(String[] args) {
-//        try {
-//            String []contextPath = {
-//                    "classpath*:/META-INF/spring/spring-shell-plugin.xml" ,
-//                    "classpath*:/META-INF/spring/spring-shell-plugin-turnstile.xml"
-//            };
-//            IsbBootstrap.main(args , contextPath);
-//        } catch (IOException e) {
-//            System.out.println("[ERRORS-START-TURNSTILE]");
-//            e.printStackTrace();
-//        }
-//    }
 
 }
 
