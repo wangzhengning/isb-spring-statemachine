@@ -30,15 +30,13 @@ public class CommonConfiguration {
         public void onApplicationEvent(StateMachineEvent event) {
             if (event instanceof OnStateEntryEvent) {
                 OnStateEntryEvent e = (OnStateEntryEvent)event;
-                log.info("Entry state " + e.getState().getId());
+                if(e != null && e.getState()!= null)
+                    log.info("Entry state " + e.getState().getId());
             }
             else if (event instanceof OnStateExitEvent) {
                 OnStateExitEvent e = (OnStateExitEvent)event;
-                log.info("Exit state " + e.getState().getId());
-            }
-            else if (event instanceof OnTransitionStartEvent){
-                OnTransitionStartEvent e = (OnTransitionStartEvent)event;
-                log.info("Event info:{}" + e);
+                if(e != null && e.getState()!= null)
+                    log.info("Exit state " + e.getState().getId());
             }
             else if (event instanceof OnTransitionEvent) {
                 OnTransitionEvent e = (OnTransitionEvent)event;
@@ -46,32 +44,20 @@ public class CommonConfiguration {
                     if(e.getTransition() != null && e.getTransition().getSource() != null){
                         log.info("Internal transition source=" + e.getTransition().getSource().getId());
                     }
-                    else {
-                        log.info("Internal transition source is null");
-                    }
                 }
                 else if(e.getTransition().getKind() == TransitionKind.EXTERNAL){
                     if(e.getTransition() != null && e.getTransition().getSource() != null){
                         log.info("External transition source=" + e.getTransition().getSource().getId());
-                    }
-                    else{
-                        log.info("External transition source is null");
                     }
                 }
                 else if(e.getTransition().getKind() == TransitionKind.LOCAL){
                     if(e.getTransition() != null && e.getTransition().getSource() != null){
                         log.info("Local transition source=" + e.getTransition().getSource().getId());
                     }
-                    else {
-                        log.info("Local transition source is null");
-                    }
                 }
                 else if(e.getTransition().getKind() == TransitionKind.INITIAL){
                     if(e.getTransition() != null && e.getTransition().getSource() != null){
                         log.info("Initial transition source=" + e.getTransition().getSource().getId());
-                    }
-                    else {
-                        log.info("Initial transition source is null");
                     }
                 }
             }

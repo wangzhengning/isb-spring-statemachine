@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Created by zn.wang on 17/4/23.
  */
 @Component
-public class StateMachineCommands extends AbstractStateMachineCommands<Application4TurnStile.States, Application4TurnStile.Events> {
+public class StateMachineCommands4TrunStile extends AbstractStateMachineCommands<Application4TurnStile.States, Application4TurnStile.Events> {
 
     @CliCommand(value = "sm event" , help = "Sends an event to a state machine")
     public String event(@CliOption(key = {"" , "event"} , mandatory =true , help = "The event")

@@ -1,13 +1,11 @@
 package com.statemachine.examples.turnstile;
 
-import com.statemachine.util.IsbBootstrap;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.statemachine.config.EnableStateMachine;
 import org.springframework.statemachine.config.EnumStateMachineConfigurerAdapter;
 import org.springframework.statemachine.config.builders.StateMachineStateConfigurer;
 import org.springframework.statemachine.config.builders.StateMachineTransitionConfigurer;
 
-import java.io.IOException;
 import java.util.EnumSet;
 
 /**
@@ -50,15 +48,18 @@ public class Application4TurnStile {
         COIN, PUSH;
     }
 
-    public static void main(String[] args) {
-        try {
-            String []contextPath = { "classpath*:/META-INF/spring/spring-shell-plugin.xml" };
-            IsbBootstrap.main(args , contextPath);
-        } catch (IOException e) {
-            System.out.println("[ERRORS-START-TURNSTILE]");
-            e.printStackTrace();
-        }
-    }
+//    public static void main(String[] args) {
+//        try {
+//            String []contextPath = {
+//                    "classpath*:/META-INF/spring/spring-shell-plugin.xml" ,
+//                    "classpath*:/META-INF/spring/spring-shell-plugin-turnstile.xml"
+//            };
+//            IsbBootstrap.main(args , contextPath);
+//        } catch (IOException e) {
+//            System.out.println("[ERRORS-START-TURNSTILE]");
+//            e.printStackTrace();
+//        }
+//    }
 
 }
 
