@@ -7,7 +7,4 @@
 
 	<context:component-scan base-package="com.statemachine.examples.common" />
 
-	<!--<import resource="spring-shell-plugin-turnstile.xml"/>-->
-	<!--<import resource="spring-shell-plugin-showcase.xml"/>-->
-
 </beans>
