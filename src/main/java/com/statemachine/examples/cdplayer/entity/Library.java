@@ -22,12 +22,12 @@ public class Library implements Serializable{
     }
 
     public static Library buildSampleLibrary(){
-        Track cd1Track = new Track("CD1 Track wzn_1" , 5*60 + 56);
-        Track cd1Track2 = new Track("CD1 Track wzn_2" , 3*60 + 36);
+        Track cd1Track = new Track("CD1 Track wzn_1" , 5 * 60 + 56);
+        Track cd1Track2 = new Track("CD1 Track wzn_2" , 3 * 60 + 36);
         Cd cd1 = new Cd("Greatest Hits I" , new Track[]{cd1Track , cd1Track2});
 
-        Track cd2Track = new Track("CD2 Track wzn_1" , 4*60 + 22);
-        Track cd2Track2 = new Track("CD2 Track wzn_2" , 4*60 + 8);
+        Track cd2Track = new Track("CD2 Track wzn_1" , 4 * 60 + 22);
+        Track cd2Track2 = new Track("CD2 Track wzn_2" , 4 * 60 + 8);
         Cd cd2 = new Cd("Greatest Hits II" , new Track[]{cd2Track , cd2Track2});
 
         return new Library(new Cd[]{ cd1 , cd2 });
