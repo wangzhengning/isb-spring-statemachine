@@ -5,12 +5,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
  * Created by zn.wang on 17/4/26.
  */
-@Configuration
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class Application4Zookeeper implements CommandLineRunner{
 
     private static final Logger logger = LoggerFactory.getLogger(Application4Zookeeper.class);

@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.StateMachineSystemConstants;
@@ -15,7 +16,7 @@ import org.springframework.statemachine.StateMachineSystemConstants;
 /**
  * Created by zn.wang on 17/4/21.
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class StateMachineApplication implements CommandLineRunner{
 
     protected Logger logger = LoggerFactory.getLogger(StateMachineApplication.class);
