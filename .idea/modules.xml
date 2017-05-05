@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/isb-spring-statemachine.iml" filepath="$PROJECT_DIR$/.idea/isb-spring-statemachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../isb-design-patterns/isb-design-patterns.iml" filepath="$PROJECT_DIR$/../../isb-design-patterns/isb-design-patterns.iml" group="isb-code-group-all" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isb-spring-statemachine.iml" filepath="$PROJECT_DIR$/.idea/isb-spring-statemachine.iml" group="isb-code-group-all" />
     </modules>
   </component>
 </project>

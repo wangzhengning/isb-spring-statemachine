@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="isb-design-patterns" />
         <module name="isb-spring-statemachine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="isb-design-patterns" target="1.8" />
       <module name="isb-spring-statemachine" target="1.8" />
     </bytecodeTargetLevel>
   </component>

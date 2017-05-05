@@ -82,6 +82,12 @@
             <version>3.4</version>
         </dependency>
 
+        <!-- yeepay异步组件 -->
+        <dependency>
+            <groupId>com.yeepay.g3.utils</groupId>
+            <artifactId>yeepay-event</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

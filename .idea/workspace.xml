@@ -4,23 +4,57 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/showcase/StateMachineConfig4ShowCase.java" description="package com.statemachine.examples.showcase;" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928067c8-5a87-4fba-bc25-7bc6a76b817a" name="Default" comment="create the statemachine demo - (zookeeper-success)-(startup with springbot)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfigBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+    <list default="true" id="928067c8-5a87-4fba-bc25-7bc6a76b817a" name="Default" comment="create the isb-design-patterns">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/CurrentConditionDisplay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/DisplayElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ForcastDisplay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/StatisticsDisplay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Subject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ThirdPartyDisplay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/WeatherData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_caucho_hessian_4_0_7_yeepay.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yeepay_g3_common_yeepay_common_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yeepay_g3_utils_yeepay_event_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yeepay_g3_utils_yeepay_jmx_client_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yeepay_g3_utils_yeepay_jmx_core_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yeepay_g3_utils_yeepay_utils_common_1_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yeepay_infra_metrics_agent_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pinyin4j_pinyin4j_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvel_mvel2_2_2_7_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/Duck.java" afterPath="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/Duck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/isb-spring-statemachine.iml" afterPath="$PROJECT_DIR$/.idea/isb-spring-statemachine.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/application/StateMachineApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/application/StateMachineApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/Application4CDPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/Application4CDPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/showcase/Application4ShowCase.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/showcase/Application4ShowCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/Application4Tasks.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/Application4Tasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/Application4TurnStile.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/Application4TurnStile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/Application4Washer.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/Application4Washer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/zookeeper/Application4Zookeeper.java" afterPath="$PROJECT_DIR$/src/main/java/com/statemachine/examples/zookeeper/Application4Zookeeper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="isb-spring-statemachine.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/../../isb-design-patterns/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,43 +79,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StateMachineApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/application/StateMachineApplication.java">
+      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/WeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateMachineConfigBuilder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfigBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+            <state relative-caret-position="428">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateMachineConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfig.java">
+      <file leaf-file-name="CurrentConditionDisplay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/CurrentConditionDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="77" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Region.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/region/Region.java">
+      <file leaf-file-name="ForcastDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ForcastDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/StatisticsDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdPartyDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ThirdPartyDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,12 +152,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../isb-design-patterns" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -113,35 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/Action/PlayingAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/Action/TrackAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/guard/PlayGuard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/StateMachineConfig4CDPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/CdPlayerCommands.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/entity/Library.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/entity/Cd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/entity/Track.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/common/CommonConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/spring-shell-plugin-tasks.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/enumpk/EnumStates4Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/enumpk/EnumEvents4Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/StateMachineCommands4Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/StateMachineConfig4Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/annotation/StatesOnTransition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/Tasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/TasksCommands.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/spring-shell-plugin-washer.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/enumpk/EnumEvents4Washer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/enumpk/EnumStates4Washer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/StateMachineCommands4Washer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/StateMachineConfig4Washer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/enumpk/EnumStates4Persist.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/enumpk/EnumEvents4Persist.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/entity/Persist.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/entity/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/Service/Persist.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/handle/PersistHandleConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/StateMachineCommands4Persist.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/IsbDataSourceAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/Application4Persist.java" />
@@ -151,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/StateMachineConfig4Persist.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/zookeeper/StateMachineCommands4Zookeeper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/spring-shell-plugin-zookeeper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/zookeeper/StateMachineConfig4Zookeeper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/Service/PersistService.java" />
@@ -163,7 +195,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/zookeeper/Application4Zookeeper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/Application4Washer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/application/StateMachineApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfigBuilder.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/QuackBehavior.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/FlyNoWay.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/FlyWithWings.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/Quack.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/Squeak.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/MuteQuack.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/DuckFactory.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/fly/FlyWithWings.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/quack/MuteQuack.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/ReadHeadDuck.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/RubberDuck.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/DecoyDuck.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/META-INF.spring/spring-shell-plugin.xml" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/test/java/com/designpatterns/example/part01/DuckTest.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/Duck.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/DisplayElement.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ThridPartyDisplay.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Subject.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Observer.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/WeatherData.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/CurrentConditionDisplay.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ForcastDisplay.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/StatisticsDisplay.java" />
+        <option value="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ThirdPartyDisplay.java" />
       </list>
     </option>
   </component>
@@ -189,10 +251,10 @@
     <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1778" />
-    <option name="y" value="-27" />
-    <option name="width" value="1689" />
-    <option name="height" value="852" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-88" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -259,7 +321,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,35 +336,202 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="isb-spring-statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-spring-statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-spring-statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-spring-statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-spring-statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-spring-statemachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-code-group-all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isb-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../isb-design-patterns" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.statemachine.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF.spring" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.designpatterns.example.part01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01" />
+      <recent name="$PROJECT_DIR$/../../isb-design-patterns/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/META-INF.spring" />
+      <recent name="$PROJECT_DIR$/src/main/resources/examples/zookeeper" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/enumpk" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.statemachine.examples.zookeeper" />
@@ -311,113 +540,139 @@
       <recent name="com.statemachine.examples.tasks" />
       <recent name="com.statemachine.examples.cdplayer" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/examples/zookeeper" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/enumpk" />
-      <recent name="$PROJECT_DIR$/src/main/resources/examples/persist" />
-      <recent name="$PROJECT_DIR$/src/main/resources/examples/washer" />
-      <recent name="$PROJECT_DIR$/src/main/resources/examples/tasks" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF.spring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StateMachineConfigBuilder">
-    <configuration default="false" name="Application4Persist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DuckTest.testRubberDuck">
+    <configuration default="false" name="DuckTest.testDecoyDuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.statemachine.examples.persist.*" />
+          <option name="PATTERN" value="com.designpatterns.example.part01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.statemachine.examples.persist.Application4Persist" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="isb-design-patterns" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.designpatterns.example.part01" />
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.example.part01.DuckTest" />
+      <option name="METHOD_NAME" value="testDecoyDuck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isb-spring-statemachine" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Application4Zookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DuckTest.before" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.statemachine.examples.zookeeper.*" />
+          <option name="PATTERN" value="com.designpatterns.example.part01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.statemachine.examples.zookeeper.Application4Zookeeper" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="isb-design-patterns" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.designpatterns.example.part01" />
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.example.part01.DuckTest" />
+      <option name="METHOD_NAME" value="before" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isb-spring-statemachine" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="StateMachineConfigBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DuckTest.testMallardDuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.statemachine.service.*" />
+          <option name="PATTERN" value="com.designpatterns.example.part01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.statemachine.service.StateMachineConfigBuilder" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="isb-design-patterns" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.designpatterns.example.part01" />
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.example.part01.DuckTest" />
+      <option name="METHOD_NAME" value="testMallardDuck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isb-spring-statemachine" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Application4TurnStile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DuckTest.testReadHeadDuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.statemachine.examples.turnstile.*" />
+          <option name="PATTERN" value="com.designpatterns.example.part01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.statemachine.examples.turnstile.Application4TurnStile" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="isb-design-patterns" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.designpatterns.example.part01" />
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.example.part01.DuckTest" />
+      <option name="METHOD_NAME" value="testReadHeadDuck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isb-spring-statemachine" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Application4ShowCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DuckTest.testRubberDuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.statemachine.examples.showcase.*" />
+          <option name="PATTERN" value="com.designpatterns.example.part01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.statemachine.examples.showcase.Application4ShowCase" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="isb-design-patterns" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.designpatterns.example.part01" />
+      <option name="MAIN_CLASS_NAME" value="com.designpatterns.example.part01.DuckTest" />
+      <option name="METHOD_NAME" value="testRubberDuck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="isb-spring-statemachine" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -852,24 +1107,29 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.StateMachineApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Application4Persist" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Application4Zookeeper" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StateMachineConfigBuilder" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Application4TurnStile" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Application4ShowCase" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DuckTest.testDecoyDuck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DuckTest.before" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DuckTest.testMallardDuck" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DuckTest.testReadHeadDuck" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.DuckTest.testRubberDuck" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StateMachineConfigBuilder" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application4Zookeeper" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Application4ShowCase" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Application4Persist" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Application4TurnStile" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DuckTest.testRubberDuck" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DuckTest.testReadHeadDuck" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DuckTest.testMallardDuck" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DuckTest.testDecoyDuck" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DuckTest.before" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -884,7 +1144,8 @@
       <workItem from="1492742244748" duration="17000" />
       <workItem from="1492942806173" duration="41194000" />
       <workItem from="1493097567519" duration="68458000" />
-      <workItem from="1493344164235" duration="2976000" />
+      <workItem from="1493344164235" duration="5199000" />
+      <workItem from="1493779667560" duration="36893000" />
     </task>
     <task id="LOCAL-00001" summary="create the statemachine demo - (trunstile)">
       <created>1492950710371</created>
@@ -977,11 +1238,78 @@
       <option name="project" value="LOCAL" />
       <updated>1493197089026</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create the statemachine demo - (use buildFun-to-build-statemachine)">
+      <created>1493347570460</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1493347570460</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create the isb-design-patterns">
+      <created>1493865266783</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1493865266784</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create the isb-design-patterns">
+      <created>1493867582594</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493867582594</updated>
+    </task>
+    <task id="LOCAL-00017" summary="create the isb-design-patterns">
+      <created>1493878033868</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1493878033869</updated>
+    </task>
+    <task id="LOCAL-00018" summary="create the isb-design-patterns">
+      <created>1493878783359</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1493878783359</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DuckTest_before - 2017.05.04 at 14h 12m 55s.xml">
+      <configuration name="DuckTest.before" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_before - 2017.05.04 at 14h 13m 43s.xml">
+      <configuration name="DuckTest.before" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testBean - 2017.05.04 at 13h 53m 08s.xml">
+      <configuration name="DuckTest.testBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testDecoyDuck - 2017.05.04 at 14h 04m 57s.xml">
+      <configuration name="DuckTest.testDecoyDuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testDecoyDuck - 2017.05.04 at 14h 05m 48s.xml">
+      <configuration name="DuckTest.testDecoyDuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testDecoyDuck - 2017.05.04 at 14h 15m 49s.xml">
+      <configuration name="DuckTest.testDecoyDuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testDecoyDuck - 2017.05.04 at 14h 16m 45s.xml">
+      <configuration name="DuckTest.testDecoyDuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testMallardDuck - 2017.05.04 at 14h 17m 37s.xml">
+      <configuration name="DuckTest.testMallardDuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testReadHeadDuck - 2017.05.04 at 14h 18m 07s.xml">
+      <configuration name="DuckTest.testReadHeadDuck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DuckTest_testRubberDuck - 2017.05.04 at 14h 19m 15s.xml">
+      <configuration name="DuckTest.testRubberDuck" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112645000" />
+    <option name="totallyTimeSpent" value="151761000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -993,30 +1321,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1778" y="-27" width="1689" height="852" extended-state="0" />
+    <frame x="-1920" y="-88" width="1920" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29787233" sideWeight="0.50858366" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24225865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24174654" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22732626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24736843" sideWeight="0.4914163" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32020727" sideWeight="0.4914163" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33684212" sideWeight="0.49427754" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243523" sideWeight="0.49427754" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49427754" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24104433" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2113951" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1024,7 +1353,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46524823" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1082,7 +1410,9 @@
     <MESSAGE value="create the statemachine demo - (cdplayer-success)-(startup with springbot)" />
     <MESSAGE value="create the statemachine demo - (washer-success)-(startup with springbot)" />
     <MESSAGE value="create the statemachine demo - (zookeeper-success)-(startup with springbot)" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the statemachine demo - (zookeeper-success)-(startup with springbot)" />
+    <MESSAGE value="create the statemachine demo - (use buildFun-to-build-statemachine)" />
+    <MESSAGE value="create the isb-design-patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="create the isb-design-patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1135,8 +1465,62 @@
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/AbstractStateMachine.java</url>
+          <line>361</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/AbstractStateMachine.java</url>
+          <line>389</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/LifecycleObjectSupport.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java</url>
+          <line>267</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java</url>
+          <line>288</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java</url>
+          <line>296</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java</url>
+          <line>323</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1145,399 +1529,517 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/config/builders/StateMachineConfigurer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/StateMachineInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="53" column="23" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/config/configurers/TransitionConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/StateMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/config/builders/StateMachineTransitionConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/config/configurers/ExternalTransitionConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/event/StateMachineEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/constant/EnumPaymentOrderStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/constant/EnumPaymentEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/examples/turnstile/statechartmodel-turnstile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/common/AbstractStateMachineCommands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/StateMachineConfig4TurnStile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/StateMachineCommands4TrunStile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/common/StateMachinePromptProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/common/CommonConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diagram.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/spring-shell-plugin-persist.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/Service/PersistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="646">
+          <caret line="191" column="38" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2784#2796#0" expanded="true" />
+            <element signature="e#3405#3415#0" expanded="true" />
+            <element signature="e#5137#5138#0" expanded="true" />
+            <element signature="e#5170#5171#0" expanded="true" />
+            <element signature="e#5207#5208#0" expanded="true" />
+            <element signature="e#5244#5245#0" expanded="true" />
+            <element signature="e#8863#9363#0" expanded="true" />
+            <element signature="e#9362#9363#0" expanded="true" />
+            <element signature="e#10581#10599#0" expanded="true" />
+            <element signature="e#11832#11850#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/spring-shell-plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/config/StateMachineBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/processor/StateMachineHandlerCallHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/transition/Transition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-846">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/StateMachineExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/DefaultStateMachineExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="256" column="39" selection-start-line="256" selection-start-column="39" selection-end-line="256" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/LifecycleObjectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="119" column="28" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/StateMachineContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/StateMachineSystemConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE-sources.jar!/org/springframework/core/task/TaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/ObjectStateMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="747">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/StateMachineObjectSupport.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/trigger/TriggerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/trigger/Trigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE-sources.jar!/org/springframework/util/ObjectUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="282" column="52" selection-start-line="282" selection-start-column="41" selection-end-line="282" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/trigger/EventTrigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.statemachine.trigger">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.statemachine.trigger</OriginalElement>
+          <nodes>
+            <node x="239.0" y="191.0">org.springframework.statemachine.trigger.TimerTrigger</node>
+            <node x="220.0" y="723.0">org.springframework.statemachine.trigger.CompositeTriggerListener</node>
+            <node x="0.0" y="290.0">org.springframework.statemachine.trigger.EventTrigger</node>
+            <node x="0.0" y="723.0">org.springframework.statemachine.trigger.DefaultTriggerContext</node>
+            <node x="135.0" y="0.0">org.springframework.statemachine.trigger.Trigger</node>
+            <node x="269.5" y="621.0">org.springframework.statemachine.trigger.TriggerListener</node>
+            <node x="23.0" y="621.0">org.springframework.statemachine.trigger.TriggerContext</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.statemachine.trigger.DefaultTriggerContext" target="org.springframework.statemachine.trigger.TriggerContext">
+              <point x="0.0" y="-49.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="org.springframework.statemachine.trigger.TimerTrigger" target="org.springframework.statemachine.trigger.Trigger">
+              <point x="0.0" y="-192.5" />
+              <point x="545.5" y="166.0" />
+              <point x="423.75" y="166.0" />
+              <point x="96.25" y="70.5" />
+            </edge>
+            <edge source="org.springframework.statemachine.trigger.CompositeTriggerListener" target="org.springframework.statemachine.trigger.TriggerListener">
+              <point x="0.0" y="-37.5" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="org.springframework.statemachine.trigger.EventTrigger" target="org.springframework.statemachine.trigger.Trigger">
+              <point x="0.0" y="-93.5" />
+              <point x="109.5" y="166.0" />
+              <point x="231.25" y="166.0" />
+              <point x="-96.25" y="70.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-92.0" y="238.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/listener/AbstractCompositeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="e#1431#1432#0" expanded="false" />
+            <element signature="e#1461#1462#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/CountTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/AbstractStateMachine.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/util/IsbTreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/constant/EnumComConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/trigger/CompositeTriggerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/trigger/TimerTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding>
+            <element signature="e#1484#1485#0" expanded="false" />
+            <element signature="e#1506#1507#0" expanded="false" />
+            <element signature="e#1780#1781#0" expanded="false" />
+            <element signature="e#1799#1800#0" expanded="false" />
+            <element signature="e#1871#1872#0" expanded="false" />
+            <element signature="e#1912#1913#0" expanded="false" />
+            <element signature="e#1947#1948#0" expanded="false" />
+            <element signature="e#1965#1966#0" expanded="false" />
+            <element signature="e#2095#2096#0" expanded="false" />
+            <element signature="e#2110#2111#0" expanded="false" />
+            <element signature="e#2395#2480#0" expanded="false" />
+            <element signature="e#2479#2480#0" expanded="false" />
+            <element signature="e#2589#2590#0" expanded="false" />
+            <element signature="e#2623#2624#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/trigger/TriggerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
+        <state relative-caret-position="1995">
+          <caret line="105" column="12" selection-start-line="23" selection-start-column="4" selection-end-line="105" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/showcase/StateMachineConfig4ShowCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-593">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/Application4Persist.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/persist/StateMachineConfig4Persist.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar!/org/springframework/scheduling/TaskScheduler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/cdplayer/Application4CDPlayer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/support/LifecycleObjectSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="403">
+          <caret line="208" column="20" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/showcase/Application4ShowCase.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/listener/OrderedComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/DuckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/quack/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/fly/FlyWithWings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/fly/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/fly/FlyNoWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/RubberDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/ReadHeadDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/resources/META-INF.spring/spring-shell-plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="590" column="18" selection-start-line="590" selection-start-column="18" selection-end-line="590" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/quack/Squeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/quack/Quack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/target/test-classes/com/designpatterns/example/part01/DuckTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding>
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#0#2430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/tasks/Application4Tasks.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/test/java/com/designpatterns/example/part01/DuckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="1254">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/turnstile/Application4TurnStile.java">
+    <entry file="uml://JAVA/com.designpatterns.example.part01">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpatterns.example.part01</OriginalElement>
+          <nodes>
+            <node x="" y="">com.designpatterns.example.part01.fly</node>
+            <node x="" y="">com.designpatterns.example.part01.quack</node>
+            <node x="" y="">com.designpatterns.example.part01.DuckTest</node>
+            <node x="" y="">com.designpatterns.example.part01.RubberDuck</node>
+            <node x="" y="">com.designpatterns.example.part01.Duck</node>
+            <node x="" y="">com.designpatterns.example.part01.DecoyDuck</node>
+            <node x="" y="">com.designpatterns.example.part01.ReadHeadDuck</node>
+            <node x="" y="">com.designpatterns.example.part01.MallardDuck</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="272.5" y="-714.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/quack/MuteQuack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/washer/Application4Washer.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/DecoyDuck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/examples/zookeeper/Application4Zookeeper.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part01/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="447">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/EnumSet.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/DisplayElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="129" column="48" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="48" />
+        <state relative-caret-position="114">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/config/configurers/StateConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="222" column="46" selection-start-line="222" selection-start-column="33" selection-end-line="222" selection-end-column="46" />
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/StaticListableBeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE-sources.jar!/org/springframework/beans/factory/ListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/statemachine/spring-statemachine-core/1.2.0.RELEASE/spring-statemachine-core-1.2.0.RELEASE-sources.jar!/org/springframework/statemachine/region/Region.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/application/StateMachineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="77" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/statemachine/service/StateMachineConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        <state relative-caret-position="428">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ForcastDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/StatisticsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/ThirdPartyDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../isb-design-patterns/src/main/java/com/designpatterns/example/part02/CurrentConditionDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,11 +2107,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>isb-spring-statemachine</last-edited>
+          <last-edited>isb-design-patterns</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

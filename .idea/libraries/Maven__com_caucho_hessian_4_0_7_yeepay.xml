@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.caucho:hessian:4.0.7-yeepay">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/caucho/hessian/4.0.7-yeepay/hessian-4.0.7-yeepay.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/caucho/hessian/4.0.7-yeepay/hessian-4.0.7-yeepay-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/caucho/hessian/4.0.7-yeepay/hessian-4.0.7-yeepay-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

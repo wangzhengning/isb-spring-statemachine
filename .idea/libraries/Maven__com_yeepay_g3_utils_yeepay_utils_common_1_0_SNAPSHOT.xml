@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yeepay.g3.utils:yeepay-utils-common:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yeepay/g3/utils/yeepay-utils-common/1.0-SNAPSHOT/yeepay-utils-common-1.0-20160817.070143-124.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yeepay/g3/utils/yeepay-utils-common/1.0-SNAPSHOT/yeepay-utils-common-1.0-20160817.070143-124-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/yeepay/g3/utils/yeepay-utils-common/1.0-SNAPSHOT/yeepay-utils-common-1.0-20160817.070143-124-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
