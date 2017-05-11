@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * Created by zn.wang on 17/5/10.
  */
 @Service
-public class ConsumerListener implements OrderStateChangeListener{
+public class ConsumerListener implements OrderStateChangeListener<States , Events>{
 
     @Autowired
     private OrderService repository;
