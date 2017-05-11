@@ -14,73 +14,39 @@ import org.springframework.stereotype.Service;
  * Created by zn.wang on 17/5/11.
  */
 @Service("iConsumerListener")
-public class IConsumerListener<States, Events> implements IOrderStateChangeListener<States,Events> {
+public class IConsumerListener<States, Events> extends IOrderStateChangeListener<States,Events> {
     @Autowired
     private OrderService repository;
 
     private final static Log log = LogFactory.getLog(IConsumerListener.class);
 
     @Override
-    public void stateChanged ( State <States, Events> from, State <States, Events> to ) {
-        System.out.println ("stateChanged:{} , from:" +  from
-                + " , to:" +  to );
+    public void preEvent ( Message <Events> message, StateMachine <States, Events> stateMachine ) {
+        System.out.println ("preEvent:{} , message:" + message +" , stateMachine:" + stateMachine);
     }
 
     @Override
-    public void stateEntered ( State <States, Events> state ) {
-        System.out.println ("stateEntered:{} , state:" + state );
+    public void preStateChange ( State <States, Events> state, Message <Events> message, Transition <States, Events> transition, StateMachine <States, Events> stateMachine ) {
+        System.out.println ("preStateChange:{} , state:" + state +" , message:" + message + " , transition:"+ transition +" , stateMachine:" + stateMachine);
     }
 
     @Override
-    public void stateExited ( State <States, Events> state ) {
-        System.out.println ("stateExited:{} , state:" +  state );
+    public void postStateChange ( State <States, Events> state, Message <Events> message, Transition <States, Events> transition, StateMachine <States, Events> stateMachine ) {
+        System.out.println ("postStateChange:{} , state:" + state +" , message:" + message + " , transition:"+ transition +" , stateMachine:" + stateMachine);
     }
 
     @Override
-    public void eventNotAccepted ( Message <Events> event ) {
-        System.out.println ("eventNotAccepted:{} , event:" + event );
+    public void preTransition ( StateContext <States, Events> stateContext ) {
+        System.out.println ("preTransition:{} , stateContext:" + stateContext );
     }
 
     @Override
-    public void transition ( Transition <States, Events> transition ) {
-        System.out.println ("transition:{} , transition:" +  transition );
-    }
-
-    @Override
-    public void transitionStarted ( Transition <States, Events> transition ) {
-        System.out.println ("transitionStarted:{} , transition:" +  transition);
-    }
-
-    @Override
-    public void transitionEnded ( Transition <States, Events> transition ) {
-        System.out.println ("transitionEnded:{} , stateMachine:" +  transition );
-    }
-
-    @Override
-    public void stateMachineStarted ( StateMachine <States, Events> stateMachine ) {
-        System.out.println ("stateMachineStarted:{} , stateMachine:" + stateMachine );
-    }
-
-    @Override
-    public void stateMachineStopped ( StateMachine <States, Events> stateMachine ) {
-        System.out.println ("stateMachineStopped:{} , stateMachine:" + stateMachine );
+    public void postTransition ( StateContext <States, Events> stateContext ) {
+        System.out.println ("postTransition:{} , stateContext:" + stateContext );
     }
 
     @Override
     public void stateMachineError ( StateMachine <States, Events> stateMachine, Exception exception ) {
-        System.out.println ("stateMachineError:{} , stateMachine:" +  stateMachine
-                +"exception:" +   exception);
+        System.out.println ("状态机发生异常啦.....");
     }
-
-    @Override
-    public void extendedStateChanged ( Object key, Object value ) {
-        System.out.println ("extendedStateChanged:{} , key:" + key
-                +"value:" + value);
-    }
-
-    @Override
-    public void stateContext ( StateContext <States, Events> stateContext ) {
-        System.out.println ("stateContext:{} , stateContext:" + stateContext);
-    }
-
 }
