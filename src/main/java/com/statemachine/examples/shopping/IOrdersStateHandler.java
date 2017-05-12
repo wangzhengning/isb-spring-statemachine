@@ -97,8 +97,11 @@ public class IOrdersStateHandler extends AbstractOrdersStateHandler{
                 .getStateMachineAccessor()
                 .doWithAllRegions(access -> access.resetStateMachine(
                         new DefaultStateMachineContext<States, Events> (sourceState, null, null, extendedState)));
-        stateMachine.sendEvent(event);
+        //全靠事件维护的,一旦事件发生失败,怎么做...必须认真考虑这件事
+        boolean sendEvent = stateMachine.sendEvent(event);
+        if(!sendEvent){
+            //需要同步更新信息到数据库中
+        }
     }
-
 
 }

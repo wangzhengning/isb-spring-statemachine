@@ -10,6 +10,8 @@ import org.springframework.statemachine.state.State;
 import org.springframework.statemachine.transition.Transition;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 /**
  * Created by zn.wang on 17/5/11.
  */
@@ -28,6 +30,21 @@ public class IConsumerListener<States, Events> extends IOrderStateChangeListener
     @Override
     public void preStateChange ( State <States, Events> state, Message <Events> message, Transition <States, Events> transition, StateMachine <States, Events> stateMachine ) {
         System.out.println ("preStateChange:{} , state:" + state +" , message:" + message + " , transition:"+ transition +" , stateMachine:" + stateMachine);
+
+        try{
+            String orderId = String.valueOf ( message.getHeaders ().get ( "order-id" ));
+            Map<Object, Object> objectMap = stateMachine.getExtendedState ().getVariables ();
+            Order updateOrder = (Order) objectMap.get ( orderId );
+            updateOrder.setState ( state.getId ().toString () );
+
+            System.out.println ("orderId:" + orderId +" , updateOrder:" + updateOrder);
+
+            repository.save ( updateOrder );
+
+        }catch (Exception e){
+            e.printStackTrace ();
+        }
+
     }
 
     @Override
