@@ -10,7 +10,7 @@ import org.springframework.statemachine.transition.Transition;
 /**
  * Created by zn.wang on 17/5/11.
  */
-public abstract class IOrderStateChangeListener<S , E> extends StateMachineListenerAdapter<S , E> {
+public abstract class IOrderStateChangeListener<S , E> extends StateMachineListenerAdapter {
 
     public abstract void preEvent( Message<E> message, StateMachine<S, E> stateMachine);
 
@@ -24,6 +24,6 @@ public abstract class IOrderStateChangeListener<S , E> extends StateMachineListe
 
     public abstract void postTransition(StateContext<S, E> stateContext);
 
-    public abstract void stateMachineError(StateMachine<S, E> stateMachine, Exception exception);
+    public abstract void smError(StateMachine<S, E> stateMachine, Exception exception);
 
 }

@@ -5,5 +5,5 @@ package com.statemachine.examples.shopping;
  */
 public interface OrderService {
     public void save(Order order);
-    public Order findOne(Long id);
+    public Order findOne(String id);
 }

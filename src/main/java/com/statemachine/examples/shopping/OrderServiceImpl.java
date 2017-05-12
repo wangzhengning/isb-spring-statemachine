@@ -14,7 +14,7 @@ public class OrderServiceImpl implements OrderService{
     }
 
     @Override
-    public Order findOne ( Long id ) {
+    public Order findOne ( String id ) {
         Order order = new Order ();
         order.setId ( id );
         order.setName ( "phone" );

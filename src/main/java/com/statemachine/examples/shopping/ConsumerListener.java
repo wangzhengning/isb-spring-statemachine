@@ -20,7 +20,7 @@ public class ConsumerListener implements OrderStateChangeListener<States , Event
         System.out.println ("Order state changed , update db , " + state.getId ());
 
         try{
-            Long orderId = message.getHeaders().get("order-id", Long.class);
+            String orderId = message.getHeaders().get("order-id", String.class);
             Order order = repository.findOne(orderId);
             order.setState(state.getId().name ());
             repository.save(order);

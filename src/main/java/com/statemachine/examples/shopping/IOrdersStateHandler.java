@@ -1,5 +1,7 @@
 package com.statemachine.examples.shopping;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.messaging.Message;
 import org.springframework.statemachine.ExtendedState;
 import org.springframework.statemachine.StateContext;
@@ -20,6 +22,8 @@ import javax.annotation.Resource;
 @Service("iOrdersStateHandler")
 public class IOrdersStateHandler extends AbstractOrdersStateHandler{
 
+    private static final Logger logger = LoggerFactory.getLogger ( IOrdersStateHandler.class );
+
     @Resource(name = "iOrderStateMachine")
     private StateMachine<States, Events> stateMachine;
 
@@ -28,8 +32,8 @@ public class IOrdersStateHandler extends AbstractOrdersStateHandler{
 
     @Override
     protected void onInit() throws Exception {
-        System.out.println ("onInit先执行");
-        stateMachine.stop();
+        logger.info ( "onInit先执行" );
+        //stateMachine.stop();
         stateMachine
                 .getStateMachineAccessor()
                 .doWithAllRegions(new StateMachineFunction<StateMachineAccess<States, Events>> () {
@@ -71,18 +75,19 @@ public class IOrdersStateHandler extends AbstractOrdersStateHandler{
 
                             @Override
                             public Exception stateMachineError(StateMachine<States, Events> stateMachine, Exception exception) {
+                                listener.smError ( stateMachine ,exception );
                                 return exception;
                             }
                         });
                     }
                 });
 
-        stateMachine.start();
+       //stateMachine.start();
     }
 
     @Override
     protected void doDestroy() {
-        System.out.println ("doDestroy再执行");
+        logger.info ("doDestroy再执行");
         stateMachine.stop ();
     };
 
@@ -93,11 +98,13 @@ public class IOrdersStateHandler extends AbstractOrdersStateHandler{
 
     public void handleEvent(States sourceState , Message<Events> event, ExtendedState extendedState)
     {
+        stateMachine.stop();
         stateMachine
                 .getStateMachineAccessor()
                 .doWithAllRegions(access -> access.resetStateMachine(
                         new DefaultStateMachineContext<States, Events> (sourceState, null, null, extendedState)));
         //全靠事件维护的,一旦事件发生失败,怎么做...必须认真考虑这件事
+        stateMachine.start ();
         boolean sendEvent = stateMachine.sendEvent(event);
         if(!sendEvent){
             //需要同步更新信息到数据库中
